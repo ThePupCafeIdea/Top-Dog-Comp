@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>The Pup Café Hub</title>
+  <style>
+    :root {
+      --brown-dark: #3e2c1f;
+      --cream:      #f7f5f1;
+      --green-dark: #567a5b;
+      --mint:       #e0f4dc;
+      --green-mid:  #9ec17d;
+      --accent1:    #6b4c3b;
+      --accent2:    #e08e43;
+      --accent3:    #27a2a0;
+      --accent4:    #d9574f;
+      --accent5:    #cab69e;
+    }
+    * { box-sizing: border-box; margin:0; padding:0 }
+    body {
+      background: var(--mint);
+      color: var(--brown-dark);
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+    header {
+      background: var(--cream);
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    }
+    header h1 {
+      margin-bottom: .5rem;
+      font-size: 1.8rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      color: var(--green-dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section h2 {
+      margin-bottom: .75rem;
+      color: var(--accent1);
+      border-bottom: 2px solid var(--accent2);
+      padding-bottom: .25rem;
+    }
+    a.button {
+      display: inline-block;
+      margin: .5rem 0;
+      padding: .5rem 1rem;
+      background: var(--green-mid);
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Pup Café Hub</h1>
+    <nav>
+      <a href="#presentation">Presentation</a>
+      <a href="#exec-summary">Exec Summary</a>
+      <a href="#pitch-deck">Pitch Deck</a>
+      <a href="#lean-canvas">Lean Canvas</a>
+      <a href="#financial-summary">Financial Summary</a>
+    </nav>
+  </header>
+
+  <!-- Presentation Embed -->
+  <section id="presentation">
+    <h2>Presentation</h2>
+    <div style="
+      position: relative;
+      width: 100%; height: 0;
+      padding-top: 56.25%;
+      box-shadow: 0 2px 8px rgba(0,0,0,.16);
+      border-radius: 8px;
+      margin: 1rem 0;
+      overflow: hidden;
+    ">
+      <iframe loading="lazy"
+        src="https://www.canva.com/design/DAGmbcXenKQ/Vn2qjAFG6_ulhzqnrgsM5A/view?embed"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p>
+      <a class="button"
+         href="https://www.canva.com/design/DAGmbcXenKQ/Vn2qjAFG6_ulhzqnrgsM5A/view?utm_content=DAGmbcXenKQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+         target="_blank">Open in Canva</a>
+    </p>
+  </section>
+
+  <!-- Executive Summary -->
+  <section id="exec-summary">
+    <h2>Executive Summary</h2>
+    <p>
+      <a class="button"
+         href="https://docs.google.com/document/d/19dFvp2EKlDWCMfzJGAcXWtMpYySPgO3nmpNVpbBIoMg/edit?usp=sharing"
+         target="_blank">View Exec Summary</a>
+    </p>
+  </section>
+
+  <!-- Pitch Deck -->
+  <section id="pitch-deck">
+    <h2>Pitch Deck</h2>
+    <p>
+      <a class="button"
+         href="https://thepupcafeidea.github.io/the-pup-cafe-pitch-deck/"
+         target="_blank">View Pitch Deck</a>
+    </p>
+  </section>
+
+  <!-- Lean Canvas -->
+  <section id="lean-canvas">
+    <h2>Lean Canvas</h2>
+    <p>
+      <a class="button" href="assets/LeanCanvas.pptx" download>Download Lean Canvas (.pptx)</a>
+    </p>
+  </section>
+
+  <!-- Financial Summary -->
+  <section id="financial-summary">
+    <h2>Financial Summary</h2>
+    <p>
+      <a class="button" href="assets/FinancialSummary.xlsx" download>Download Financial Model</a>
+    </p>
+  </section>
+
+</body>
+</html>
